@@ -28,7 +28,7 @@ loadCounter();
 
 app.get("/", function (request, response) {
 	// this is a handler
-	response.send("Hello, world!!");
+	response.send("Hello, world!");
 });
 
 app.get("/counter", function (request, response) {
